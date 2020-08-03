@@ -1,0 +1,28 @@
+{
+	"name": "sftpvscode",
+	"displayName": "Sftp Snippet",
+	"version": "1.0.1",
+	"publisher": "v1re",
+	"description": "",
+	"license": "ISC",
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "json",
+				"path": "./snippets.json"
+			}
+		]
+	},
+	"dependencies": {},
+	"__metadata": {
+		"id": "39d4a0fd-c3c6-4511-a132-40c870c1ab46",
+		"publisherId": "a00c874e-3e14-43f5-9b35-540fa60eb710",
+		"publisherDisplayName": "Niels Mentink"
+	}
+}

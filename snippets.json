@@ -1,0 +1,28 @@
+{
+  "SFTP Template": {
+    "prefix": "sftp",
+    "body": [
+      "{",
+      "\t\"name\": \"${1:domain}\",",
+      "\t\"host\": \"${1:domain}.sftp.wpengine.com\",",
+      "\t\"protocol\": \"sftp\",",
+      "\t\"port\": 2222,",
+      "\t\"username\": \"${1:domain}-${2:vakantie}\",",
+      "\t\"password\": \"$0\",",
+      "\t\"remotePath\": \"/\",",
+      "\t\"uploadOnSave\": true,",
+      "\t\"watcher\": {",
+      "\t\t\"files\": \"**/*.css\",",
+      "\t\t\"autoUpload\": true,",
+      "\t\t\"autoDelete\": false",
+      "\t},",
+      "\t\"ignore\": [",
+      "\t\t\".vscode\",",
+      "\t\t\".git\",",
+      "\t\t\".DS_Store\",",
+      "\t\t\"node_modules/\"",
+      "\t]",
+      "}"
+    ]
+  }
+}
