@@ -5,6 +5,11 @@
   "publisher": "v1re",
   "description": "",
   "license": "ISC",
+  "repository": { "url": "https://github.com/V1RE/sftp-snippet.git" },
+  "scripts": {
+    "publish": "./node_modules/vsce/out/vsce publish",
+    "package": "./node_modules/vsce/out/vsce package"
+  },
   "engines": {
     "vscode": "^1.28.0"
   },
@@ -17,7 +22,9 @@
       }
     ]
   },
-  "dependencies": {},
+  "dependencies": {
+    "vsce": "^1.77.0"
+  },
   "__metadata": {
     "id": "39d4a0fd-c3c6-4511-a132-40c870c1ab46",
     "publisherId": "a00c874e-3e14-43f5-9b35-540fa60eb710",
