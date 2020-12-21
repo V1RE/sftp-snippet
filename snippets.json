@@ -13,7 +13,7 @@
       "\t\"uploadOnSave\": true,",
       "\t\"watcher\": {",
       "\t\t\"files\": \"**/*.{css,js,ts,scss,php,html,json}\",",
-      "\t\t\"autoUpload\": true,",
+      "\t\t\"autoUpload\": false,",
       "\t\t\"autoDelete\": false",
       "\t},",
       "\t\"ignore\": [",
