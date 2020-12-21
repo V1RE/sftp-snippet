@@ -1,11 +1,13 @@
 {
   "name": "sftpvscode",
   "displayName": "Sftp Snippet",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "publisher": "v1re",
   "description": "",
   "license": "ISC",
-  "repository": { "url": "https://github.com/V1RE/sftp-snippet.git" },
+  "repository": {
+    "url": "https://github.com/V1RE/sftp-snippet.git"
+  },
   "scripts": {
     "publish": "./node_modules/vsce/out/vsce publish",
     "package": "./node_modules/vsce/out/vsce package"
@@ -13,7 +15,9 @@
   "engines": {
     "vscode": "^1.28.0"
   },
-  "categories": ["Snippets"],
+  "categories": [
+    "Snippets"
+  ],
   "contributes": {
     "snippets": [
       {
